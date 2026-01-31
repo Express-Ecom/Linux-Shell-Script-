@@ -4,3 +4,5 @@ echo "Hellow $Name"
 #ver to show the host name :
 hostname=$(hostname)
 echo "This script is running on the host: $hostname"
+IP=$(hostname -I)
+echo "The IP address of this host is: $IP"
